@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy 3rd Monthsary, Stifany 💖</title>
+    <meta name="description" content="A special 3rd monthsary page for Stifany — from Lee." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background-gradient"></div>
+    <div class="background-blur"></div>
+
+    <main class="card">
+      <header class="hero">
+        <p class="hero-tag">For Stifany, from Lee</p>
+        <h1 class="hero-title">Happy 3rd Monthsary, my love</h1>
+        <p class="hero-subtitle">
+          Every 18th with you feels like a soft little celebration of us. 💕
+        </p>
+      </header>
+
+      <section class="counter" aria-label="Relationship counters">
+        <div class="counter-item">
+          <span class="counter-number" id="daysTogether">0</span>
+          <span class="counter-label">days together</span>
+        </div>
+        <div class="counter-divider"></div>
+        <div class="counter-item">
+          <span class="counter-number" id="monthsTogether">0</span>
+          <span class="counter-label">months of us</span>
+        </div>
+      </section>
+
+      <section class="mini-countdown" aria-label="Countdown to next monthsary">
+        <p class="mini-countdown-label">Next 18th in</p>
+        <div class="mini-countdown-row" role="group" aria-label="Countdown units">
+          <div class="mini-countdown-chip">
+            <span class="mini-countdown-num" id="countdownDays">0</span>
+            <span class="mini-countdown-unit">days</span>
+          </div>
+          <div class="mini-countdown-chip">
+            <span class="mini-countdown-num" id="countdownHours">0</span>
+            <span class="mini-countdown-unit">hours</span>
+          </div>
+          <div class="mini-countdown-chip">
+            <span class="mini-countdown-num" id="countdownMinutes">0</span>
+            <span class="mini-countdown-unit">mins</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="love-letter">
+        <p class="letter-text">
+          Stifany, three months isn’t a long time on a calendar—but it’s long enough for me to learn what
+          I already suspected: you are the kind of love that quiets the world.
+          Thank you for every smile, every late-night conversation, and every small moment that turns
+          ordinary days into something worth remembering.
+        </p>
+        <p class="letter-text">
+          I don’t just love you when it’s easy. I love you in the pauses, in the distance, in the tired days—
+          and I’ll keep choosing you with patience and certainty.
+          Happy 3rd monthsary, langga ko. 💖
+        </p>
+        <div class="letter-actions">
+          <button id="openLetter" class="secondary-button" type="button">Open the letter</button>
+          <button id="copyLine" class="ghost-button" type="button">Copy a sweet line</button>
+        </div>
+        <p class="signature">Always yours,<br /><span id="yourName">— Lee</span></p>
+      </section>
+
+      <section class="timeline" aria-label="Our little story so far">
+        <h2 class="section-title">Our first 3 chapters</h2>
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <span class="timeline-badge">Chapter 1</span>
+            <p class="timeline-title">The beginning</p>
+            <p class="timeline-text">That “first” turned into us—and I’m grateful every day.</p>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-badge">Chapter 2</span>
+            <p class="timeline-title">The comfort</p>
+            <p class="timeline-text">You became my safe place without even trying.</p>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-badge">Chapter 3</span>
+            <p class="timeline-title">The promise</p>
+            <p class="timeline-text">To keep choosing you—softly, loudly, always.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="gallery" aria-label="Little snapshots of us">
+        <h2 class="section-title">Little snapshots of us</h2>
+        <div class="polaroids">
+          <figure class="polaroid">
+            <img src="us.jpg" alt="A photo of us" loading="lazy" />
+            <figcaption>Us — my favorite place to return to.</figcaption>
+          </figure>
+          <figure class="polaroid">
+            <img src="us1.jpg" alt="A photo of us" loading="lazy" />
+            <figcaption>Any day with you becomes a memory I keep.</figcaption>
+          </figure>
+          <figure class="polaroid">
+            <img src="us2.jpg" alt="A photo of us" loading="lazy" />
+            <figcaption>Still falling — still grateful.</figcaption>
+          </figure>
+        </div>
+        <p class="gallery-hint">
+          Tip: put your photos in this folder named <code>us.jpg</code>, <code>us1.jpg</code>,
+          <code>us2.jpg</code>.
+        </p>
+      </section>
+
+      <section class="promises" aria-label="Three promises">
+        <h2 class="section-title">3 promises for our 3rd month</h2>
+        <div class="promise-grid" id="promiseGrid">
+          <button class="promise-card" type="button" data-promise="0">
+            <span class="promise-top">Promise 1</span>
+            <span class="promise-main">Tap to open</span>
+          </button>
+          <button class="promise-card" type="button" data-promise="1">
+            <span class="promise-top">Promise 2</span>
+            <span class="promise-main">Tap to open</span>
+          </button>
+          <button class="promise-card" type="button" data-promise="2">
+            <span class="promise-top">Promise 3</span>
+            <span class="promise-main">Tap to open</span>
+          </button>
+        </div>
+        <p class="promise-hint">Unique for this page: tap each promise to reveal it.</p>
+      </section>
+
+      <section class="memories">
+        <h2 class="section-title">Some things I love about you, Stifany</h2>
+        <div class="memory-list" id="complimentList">
+          <button class="memory-pill active" type="button">Your smile that makes everything lighter</button>
+          <button class="memory-pill" type="button">The way you care in the smallest details</button>
+          <button class="memory-pill" type="button">How you believe in me, even when I doubt myself</button>
+          <button class="memory-pill" type="button">Your laugh that I could listen to forever</button>
+          <button class="memory-pill" type="button">The comfort of just being next to you</button>
+        </div>
+        <p class="memory-text" id="memoryText">
+          Your smile has this magic of making even the heaviest days feel a little softer.
+        </p>
+        <div class="memory-actions">
+          <button id="shuffleReason" class="secondary-button" type="button">Give me another reason</button>
+          <button id="secretMessage" class="ghost-button" type="button">Open when you’re smiling</button>
+        </div>
+      </section>
+
+      <section class="footer-message">
+        <p class="footer-text">Happy 3rd monthsary, Stifany. I love you—always.</p>
+        <button id="surpriseButton" class="surprise-button" type="button">Tap for a tiny surprise</button>
+      </section>
+    </main>
+
+    <div id="floatingHearts" aria-hidden="true"></div>
+    <div class="toast" id="toast" aria-live="polite" aria-atomic="true"></div>
+
+    <div class="modal" id="letterModal" aria-hidden="true" role="dialog" aria-label="Love letter">
+      <div class="modal-backdrop" data-close="true"></div>
+      <div class="modal-card" role="document">
+        <button class="modal-close" type="button" aria-label="Close letter" data-close="true">×</button>
+        <p class="modal-title">To my love, Stifany</p>
+        <p class="modal-text">
+          If I could fold a feeling into paper, it would look like this: soft, warm, and always returning to you.
+          Thank you for these three months—your patience, your laughter, your love. I’m proud to be yours.
+        </p>
+        <p class="modal-text">
+          Here’s my promise: I’ll keep showing up for you—in big ways, and in the small ways that matter most.
+          I’ll love you gently, protect your peace, and remind you (as many times as it takes) that you’re never alone.
+        </p>
+        <p class="modal-signature"><span id="modalSignature">— Lee</span></p>
+        <div class="modal-actions">
+          <button id="sealPromise" class="surprise-button" type="button">Seal this promise</button>
+          <button class="ghost-button" type="button" data-close="true">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
